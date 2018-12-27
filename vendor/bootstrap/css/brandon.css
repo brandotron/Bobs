@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5{
     color:#FFFFFF;
 }
 .top{
-	height: 400px;
+	height: 50vh;
 	background-color: #000000;
 	background-image: url( "../../../images/city.jpg");
 	background-size: cover;
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5{
 }
 
 .product{
-	margin-top: 50vh;
+	margin-top: 55vh;
 }
 
 .col-md-2{padding-bottom: 12px;}
