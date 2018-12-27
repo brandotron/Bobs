@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* BRANDOTRON */
+body{
+font-family: "proxima_nova_rgregular",Helvetica, Arial, sans-serif;
+}
+
+img{
+	max-width: 100%;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: "proxima_nova_rgregular",Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+
+}
+
+.navbar-brand img{
+	width:147px;
+	height: auto; 
+}
+.bg-dark {
+    background-color: #000000!important;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #afc136;
+	font-weight:700;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:#FFFFFF;
+}
+.top{
+	height: 400px;
+	background-color: #000000;
+	background-image: url( "../../../images/city.jpg");
+	background-size: cover;
+	background-position: top center;
+	max-width: 100%;
+	margin: 0;
+}
+
+.hero img{
+	height: 60vh;
+	width: auto;
+	max-width: 100%;
+	max-height: auto;
+}
+
+.endhero{
+	text-align: center;
+	height: 100%;
+}
+
+.endhero h1{
+	margin-top: 22%;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #afc136 !important;
+	border: #afc136 !important;
+}
+
+.blogtitle{
+	border-top:1px solid rgba(0,0,0,.1);
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ .endhero{
+	color:#FFFFFF;
+	text-align: center;
+	height: 100%;padding: 0 10% 0 0;
+}
+	
+	.hero img{
+			margin-left: 20%;
+
+	}
+.navbar-nav > li{
+  padding-left:14px;
+  padding-right:14px;
+}
+	
+	.product{
+		margin-top: 10%;
+	}
+}
+ 
